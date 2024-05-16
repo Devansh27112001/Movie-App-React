@@ -126,6 +126,7 @@ function Box({ children }) {
         {isOpen ? "–" : "+"}
       </button>
       {isOpen && children}
+      {/* {isOpen && element} */}
     </div>
   );
 }
